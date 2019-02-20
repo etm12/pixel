@@ -1,5 +1,5 @@
 {
-  "name": "pixel",
+  "name": "@etm12/pixel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
