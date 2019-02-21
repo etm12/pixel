@@ -7,6 +7,29 @@
     "type": "git",
     "url": "git@github.com:etm12/pixel-app.git"
   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test:cov": "npm run test -- --collectCoverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/setupTests.js",
+      "!src/serviceWorker.js"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "dependencies": {
     "karet": "^4.1.0",
     "karet.util": "^0.19.1",
@@ -18,22 +41,6 @@
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "test:cov": "npm run test -- --collectCoverage"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "devDependencies": {
     "codecov": "^3.2.0",
     "enzyme": "^3.9.0",
