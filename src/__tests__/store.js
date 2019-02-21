@@ -1,5 +1,5 @@
 import { Property } from 'kefir';
-import { state, initial } from '../store';
+import { state } from '../store';
 
 describe('State', () => {
   it('is an observable property', () => {
@@ -10,7 +10,8 @@ describe('State', () => {
     state
       .take(1)
       .onValue(v => {
-        expect(v).toEqual(initial);
+        expect(v).toBeDefined();
+        expect(Object.keys(v).length).not.toBe(0);
         done();
       });
   });

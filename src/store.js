@@ -1,9 +1,5 @@
 import * as U from 'karet.util';
 
-export const initial = {
-  flags: {
-    loading: false,
-  },
-};
+import { initial } from './core/init';
 
 export const state = U.atom(initial);
