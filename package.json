@@ -1,7 +1,11 @@
 {
-  "name": "@etm12/pixel",
+  "name": "@etm12/pixel-app",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:etm12/pixel-app.git"
+  },
   "dependencies": {
     "karet": "^4.1.0",
     "karet.util": "^0.19.1",
