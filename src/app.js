@@ -1,8 +1,22 @@
 import * as React from 'karet';
 
-const App = () =>
-  <main>
-    App
-  </main>;
+/**
+ * @param {Props} props
+ */
+const App = ({ state }) => {
+  return (
+    <main>
+      App
+    </main>
+  );
+};
 
 export default App;
+
+//
+
+/**
+ * @typedef {object} Props
+ * @prop {any} state
+ * @prop {any} imageData
+ */
