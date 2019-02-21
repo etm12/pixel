@@ -4,8 +4,12 @@ import './index.css';
 import App from './app';
 import * as serviceWorker from './serviceWorker';
 
+import { state } from './store';
+
 ReactDOM.render(
-  <App />,
+  <App {...{
+    state,
+  }} />,
   document.getElementById('root'),
 );
 

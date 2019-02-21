@@ -18,5 +18,4 @@ export default App;
 /**
  * @typedef {object} Props
  * @prop {any} state
- * @prop {any} imageData
  */
