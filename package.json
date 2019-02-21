@@ -1,5 +1,6 @@
 {
   "name": "@etm12/pixel-app",
+  "description": "Web-based pixel editor made in Calmm.js",
   "version": "0.1.0",
   "private": true,
   "repository": {
